@@ -6,7 +6,6 @@ layout: default
 {% endcomment %}
 
 {% include breadcrumbs.html %}
-
 <div class="container">
   <div class="">
     <div class="">
@@ -63,5 +62,14 @@ layout: default
         </div>
       {% endif %}
     </div>
+  </div>
+  <div class="row">
+  {% for image in site.static_files %}
+      {% if image.path contains page.image_folder %}
+        <div class="col-6 col-md-3">
+          <a target="_blank" href="{{ site.baseurl }}{{ image.path }}"><img class="img-fluid img-thumbnail" src="{{ site.baseurl }}{{ image.path }}" alt="image" /></a>
+        </div>
+      {% endif %}
+  {% endfor %}
   </div>
 </div>
