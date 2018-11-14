@@ -20,6 +20,7 @@ collections:
     permalink: "/about/:path/"
   posts:
     output: true
+    permalink: "/auctions/:path/"
   projects:
     output: true
     permalink: "/programs/:path/"

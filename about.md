@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2017-11-01 03:00:00 +0000
-banner_image: "/img/none.jpg"
+banner_image: "/img/about-header.jpg"
 heading: Parker Auction Services
 sub_heading: Serving Northwest Arkansas for over 30 years
 layout: landing-page

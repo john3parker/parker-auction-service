@@ -3,15 +3,11 @@ top:
   title: Home
 - url: /about
   title: About
-- url: /programs
-  title: Programs
-- url: /posts
+- url: /auctions
   title: Auctions
 
 footer:
-- url: /programs
-  title: Programs
-- url: /posts
-  title: Posts
+- url: /auctions
+  title: Auctions
 - url: /about
   title: About
