@@ -1,0 +1,46 @@
+{% comment %}
+    Displays all of the people from the _people/ collection in a grid
+{% endcomment %}
+
+{% if page.show_staff %}
+<section class="staff container">
+    <div class="">
+        <div class="">
+            <div class="">
+                <h2 class="section-heading">Auction Staff</h2>
+                <div class="row">
+                {% assign people = site.people %}
+                {% for person in people %}
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-img-top">
+                            {% if person.thumbnail %}
+                                <img class="img-fluid img-thumbnail" alt="{{ person.title }}" src="{{ person.thumbnail | absolute_url }}">
+                            {% else %}
+                                <img class="img-fluid img-thumbnail" alt="{{ person.title }}" src="{{ "/img/placeholder.png" | absolute_url }}>
+                            {% endif %}
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title">
+                                    <a href="{{ person.url | absolute_url }}">{{ person.title }}</a>
+                                </h6>
+                                {% if person.sub_heading %}
+                                <div class="card-text">
+                                    {{ person.sub_heading }}
+                                </div>{% endif %}
+                                <p class="card-text">
+                                    {{ person.content | split:'<!--break-->' | first }}
+                                    {% if person.content contains '<!--break-->' %}
+                                        <a href="{{ person.url | absolute_url }}">Read more</a>
+                                     {% endif %}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}

@@ -1,0 +1,19 @@
+{% comment %}
+    Displays a list of services from a document's front matter
+{% endcomment %}
+
+{% if page.services %}
+<section class="services container pt-5 pb-5">
+    <div class="row">
+        {% for item in page.services %}
+        <div class="col">
+              <div class="service">
+                  <div class="service-icon"><img class="img-fluid img-thumbnail" src="{{ item.icon | absolute_url }}" alt=""></div>
+                  <h2>{{ item.heading }}</h2>
+                  <p>{{ item.description }}</p>
+              </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+{% comment %}
+	This layout is used to by donations.md to display all of documents in
+	the _donations/ collection
+{% endcomment %}
+
+{% include breadcrumbs.html %}
+<a name="donate"></a>
+<div class="container">
+	<div class="row equal">
+			{% for donation in site.donations %}
+			<div class="col">
+				<div class="card">
+					<div class="card-img-top" xstyle="height:250px; max-height:300px;">
+						{% if donation.banner_image and donation.banner_image != "" %}
+						<img class="img-fluid img-thumbnail" src="{{ donation.banner_image | absolute_url }}" alt="{{ donation.title }}" style="{{ donation.image_style }}">
+						{% elsif donation.use_content_as_image == true %}
+							{{ donation.content }}
+						{% endif %}
+					</div>
+					<div class="card-body">
+						<div class="card-title">
+							<h3><a href="{{ donation.url | absolute_url }}">{{ donation.title }}</a></h3>
+						</div>
+						<p class="card-text">{{ donation.sub_heading | slice: 0, 80 }}</p>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+	</div>
+</div> 

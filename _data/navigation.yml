@@ -1,0 +1,19 @@
+top:
+- url: /
+  title: Home
+- url: /about
+  title: About
+- url: /programs
+  title: Programs
+- url: /posts
+  title: Posts
+- url: /donate
+  title: Donate 
+
+footer:
+- url: /programs
+  title: Programs
+- url: /posts
+  title: Posts
+- url: /about
+  title: About
