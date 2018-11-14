@@ -1,7 +1,7 @@
-name: FJ Ministries
-title: FJ Ministries
-short_title: FJ Ministries
-description: FJ Ministries YWAM Site with Family DTS
+name: Parker Auction Service
+title: Parker Auction Service
+short_title: Parker Auction Service
+description: Serving Northwest Arkansas for over 30 years
 baseurl:
 permalink: "/:path/"
 defaults:
@@ -23,9 +23,6 @@ collections:
   projects:
     output: true
     permalink: "/programs/:path/"
-  donations:
-    output: true
-    permalink: "/donate/:path/"
 # tag_page_layout: tag_page
 # tag_page_dir: tag
 jekyll-archives:
