@@ -3,6 +3,7 @@ title: Parker Auction Service
 short_title: Parker Auction Service
 description: Serving Northwest Arkansas for over 30 years
 baseurl:
+future: true
 permalink: "/:path/"
 defaults:
   - scope:

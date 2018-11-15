@@ -23,10 +23,10 @@ services:
   heading: Experienced Staff
   icon: "/img/staff.jpg"
 - description: 
-  heading: Tents, trailers and Tables
+  heading: Tents and Tables
   icon: "/img/canopy.jpg"
 - description: 
-  heading: Free Consultations
+  heading: Consultations
   icon: "/img/free-consultation-green.png"
 
 sub_heading: ESTATES • ANTIQUES • HOUSEHOLDS • EQUIPMENT<br>Serving Northwest Arkansas for over 30 years
