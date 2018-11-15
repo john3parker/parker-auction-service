@@ -45,3 +45,8 @@ You can generate and run the site in local mode for dev and testing.
 ```
 bundle exec jekyll serve --host 0.0.0.0
 ```
+
+## Resize images
+```
+find . -name "IMG*" | xargs --replace=file convert -resize 25% file file
+```
