@@ -6,6 +6,7 @@ heading: Parker Auction Service
 partners:
 - "/img/arkansas-auctioneer-association.png"
 - "/img/the-big-nickel.png"
+- "/img/kurm.jpg"
 services:
 - description: When we first meet with you we’ll explain the full process of having an auction so that you are completely aware of everything that we’re handling for you. So if you don’t remember everything, don’t worry, we will.
   heading: Initial Consultation

@@ -5,11 +5,11 @@
 {% if page.partners %}
 <section class="partners container pt-5 pb-5">
     <div class="">
-        <h2>Associations</h2>
+        <h2>Partnered with</h2>
         <div class="row">
             {% for logo in page.partners %}
                 <div class="col">
-                    <img src="{{ logo | absolute_url }}" alt="{{ logo }}" style="width:7rem;"/>
+                    <img src="{{ logo | absolute_url }}" alt="{{ logo }}" style=""/>
                 </div>
             {% endfor %}
         </div>
