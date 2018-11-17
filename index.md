@@ -20,15 +20,12 @@ services:
 - description: Don't wait - call us now and we can help quickly clear the clutter and put cash in your hand!<br> (479) 846-3918 
   heading: Call Now!
   icon: "/img/call-now.png"
-- description: 
+- description: With over 30 years of experience we have some of best associates in the auction industy. 
   heading: Experienced Staff
   icon: "/img/staff.jpg"
-- description: 
+- description: Parker Auction can provide tents and tables to help better display your items.
   heading: Tents and Tables
   icon: "/img/canopy.jpg"
-- description: 
-  heading: Consultations
-  icon: "/img/free-consultation-green.png"
 
 sub_heading: ESTATES • ANTIQUES • HOUSEHOLDS • EQUIPMENT<br>Serving Northwest Arkansas for over 30 years
 textline: ''
