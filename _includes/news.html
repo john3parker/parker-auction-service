@@ -8,7 +8,7 @@
     {% if page.twitter and pager.twitter != '' %}
     <h2>Twitter</h2>
     <div class="row">
-        <div class="col-6 col-md-4">
+        <div class="col-sm-12 col-md-4">
             <a class="twitter-timeline" data-height="300" data-dnt="true" data-tweet-limit="1" data-dnt="true" data-chrome="noheader nofooter noborders transparent noscrollbar" href="https://twitter.com/{{ site.data.information.twitter}}"></a>
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
@@ -17,7 +17,7 @@
     <h2>Latest Auctions</h2>
     <div class="row">
         {% for post in site.posts limit:3 %}
-            <div class="col-6 col-md-4">
+            <div class="col-sm-12 col-md-4">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">{{ post.title }}</h5>
