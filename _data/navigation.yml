@@ -5,9 +5,13 @@ top:
   title: About
 - url: /auctions
   title: Auctions
+- url: /signup
+  title: Auction Notification
 
 footer:
 - url: /auctions
   title: Auctions
 - url: /about
   title: About
+- url: /signup
+  title: Auction Notification
