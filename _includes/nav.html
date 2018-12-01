@@ -5,7 +5,7 @@
 {% assign url = page.url | remove:'index.html' %}
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="{{ '/' | absolute_url }}">{{ site.name }}</a>
+  <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.name }}</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -14,7 +14,7 @@
     <ul class="navbar-nav mr-auto">
       {% for link in site.data.navigation.top %}
       <li class="nav-item">
-        <a class="nav-link" href="{{ link.url | absolute_url }}">{{ link.title }}</a>
+        <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}</a>
       </li>
       {% endfor %}
     </ul>
