@@ -2,9 +2,12 @@
 title: Public Auction - Patterson
 date: 2019-02-23 09:00:00 +0000
 related_posts: []
-sub_heading: 14589 EAST BATTLEFIELD PARK RD. PRAIRIE GROVE, AR, 72753
+sub_heading: 8205 SOUTH 4759 ROAD, STILWELL, OK
 tags: []
 layout: post
-
+published: false
 ---
-# 
+# AUCTION
+### SATURDAY FEBUARY 23, 2019 10:00 AM
+##### 8205 SOUTH 4759 ROAD, STILWELL, OK
+SALE FOR CONNIE PATTERSON
