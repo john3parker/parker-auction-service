@@ -4,10 +4,10 @@ date: 2019-02-23 09:00:00 +0000
 related_posts: []
 sub_heading: 13928 VINEY GROVE ROAD, PRAIRIE GROVE, AR 72753 
 tags: []
-published: true
 layout: post
 image_folder: '2019/stephenson'
 banner_image: "/uploads/2019/stephenson/IMG_0009.jpg"
+published: true
 ---
 # LIVING ESTATE AUCTI0N 
 ### SATURDAY, MARCH 23, 2019 10:00 AM
