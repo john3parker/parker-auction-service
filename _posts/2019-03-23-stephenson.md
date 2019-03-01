@@ -6,8 +6,8 @@ sub_heading: 13928 VINEY GROVE ROAD, PRAIRIE GROVE, AR 72753
 tags: []
 published: false
 layout: post
-image_folder: '2018/cohea'
-banner_image: "/uploads/2018/cohea/IMG_0017.jpg"
+image_folder: '2019/stephenson'
+banner_image: "/uploads/2019/stephenson/IMG_0009.jpg"
 ---
 # LIVING ESTATE AUCTI0N 
 ### SATURDAY, MARCH 23, 2019 10:00 AM
