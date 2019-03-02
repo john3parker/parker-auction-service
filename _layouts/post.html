@@ -43,11 +43,11 @@ layout: default
           <div class="col-4">
             <div class="card">
               <div class="card-header">
-              {% if post.banner_image and post.banner_image != "" %}
-                <img src="{{ post.banner_image | relative_url }}" alt="{{ post.title }}">
-              {% else %}
-                <img src="{{ "/img/placeholder.png" | relative_url }}" alt="{{ post.title }}">
-              {% endif %}
+                {% assign banner_image = '/img/auction-placeholder.jpg' %}
+                {% if post.banner_image and post.banner_image != ''  %}
+                  {% assign banner_image = post.banner_image %}
+                {% endif %}
+                <img src="{{ banner_image | relative_url }}" alt="{{ post.title }}">
               </div>
               <div class="card-body">
                 <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>

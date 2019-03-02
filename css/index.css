@@ -35,39 +35,6 @@
     color: white;
 }
 
-
-
-
-
-
-.fjm-card {
-    margin: 0 1em;
-    border-radius: 3px;
-    background-color: #f7f7f7;
-    margin-bottom: 2em;
-    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.fjm-card .card-header {
-    max-height: 100px;
-    overflow: hidden;
-}
-.fjm-card .card-body {
-    padding: 10px;
-    box-sizing: border-box;
-    /* min-height: 160px; */
-}
-
-.fjm-card .card-body h3 {
-    font-size: 14px;
-}
-.fjm-card .card-body h3 a {
-    text-decoration: none;
-}
-
 .banner .overlay {
     background: rgba(255,255,255,.6);
     position: absolute;
@@ -96,4 +63,10 @@
 	 1px -1px 0 #000,
 	-1px  1px 0 #000,
 	 1px  1px 0 #000;
+}
+
+.card-title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
