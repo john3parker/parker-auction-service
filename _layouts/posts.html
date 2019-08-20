@@ -16,9 +16,7 @@ layout: default
         <div class="card-body">
           <h4 class="card-title">
               <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h4>
-          <date>{{ post.date | date_to_string }}</date>
-        
+          </h4>        
         {% assign banner_image = '/img/auction-placeholder.jpg' %}
         {% if post.banner_image and post.banner_image != ''  %}
           {% assign banner_image = post.banner_image %}
