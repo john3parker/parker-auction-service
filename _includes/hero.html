@@ -22,6 +22,13 @@
 						</a>
 					</div>
 					{% endif %}
+					{% if page.auction_button %}
+					<div>
+						<a href="{{ page.auction_button.href | relative_url }}" class="btn btn-success" title="{{ page.auction_button.text }}">
+							{{ page.auction_button.text }}&nbsp; > 
+						</a>
+					</div>
+					{% endif %}
 				</header>
 			</div>
 		</div>

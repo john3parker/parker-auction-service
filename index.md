@@ -32,6 +32,10 @@ textline: ''
 hero_button:
   text: Learn more
   href: "/about"
+auction_button:
+  text: View Auctions
+  href: "/auctions"
+
 show_news: true
 show_staff: false
 
