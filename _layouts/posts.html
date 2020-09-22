@@ -24,7 +24,7 @@ layout: default
       {% endif %}
 
         <div class="card-img-top">
-            <a href="{{ post.url | relative_url }}"><img class="img-fluid img-thumbnail" alt="{{ post.title }}" src="{{ banner_image | relative_url }}"></a>
+            <a href="{{ post.url | relative_url }}"><img class="img-fluid img-thumbnail border-0 w-100" alt="{{ post.title }}" src="{{ banner_image | relative_url }}"></a>
         </div>
         <p class="card-text">
             {{ post.content | split:'<!--break-->' | first }}
