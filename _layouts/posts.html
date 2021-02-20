@@ -23,8 +23,8 @@ layout: default
         {% assign banner_image = post.banner_image %}
       {% endif %}
 
-        <div class="card-img-top">
-            <a href="{{ post.url | relative_url }}"><img class="img-fluid img-thumbnail border-0 w-100" alt="{{ post.title }}" src="{{ banner_image | relative_url }}"></a>
+        <div class="card-img-top d-flex align-items-center justify-content-center" style="height:536px; background-color: #e9ecef;">
+            <a href="{{ post.url | relative_url }}"><img class="img-fluid img-thumbnail border-0 w-100" style="padding:0;" alt="{{ post.title }}" src="{{ banner_image | relative_url }}"></a>
         </div>
         <p class="card-text">
             {{ post.content | split:'<!--break-->' | first }}

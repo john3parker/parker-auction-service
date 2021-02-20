@@ -70,3 +70,16 @@
     white-space: nowrap;
     overflow: hidden;
 }
+
+/* Broken images get replaced with the default placeholder
+*/
+img:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 404px;
+    height: 536px;
+    background-image: url(/img/auction-placeholder.jpg);
+    top: 60px;
+    left:20px;
+}
