@@ -11,7 +11,7 @@ banner_style: 'background-position:center;'
 published: true
 ---
 # PUBLIC AUCTION
-### Saturday, April 25th, 2021 • 12:30 P.M.
+### Sunday, April 25th, 2021 • 12:30 P.M.
 WAREHOUSE AUCTION OF OVERSTOCK ITEMS FROM 2 MAJOR STORES
 
 ##### **Location:** 830B E. ROBINSON ROAD, SPRINGDALE, ARKANSAS
