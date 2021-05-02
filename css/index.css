@@ -73,7 +73,7 @@
 
 /* Broken images get replaced with the default placeholder
 */
-img:before {
+.card > img:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -82,4 +82,7 @@ img:before {
     background-image: url(/img/auction-placeholder.jpg);
     top: 60px;
     left:20px;
+}
+.gallery-image {
+    cursor: zoom-in;
 }
