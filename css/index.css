@@ -86,3 +86,6 @@
 .gallery-image {
     cursor: zoom-in;
 }
+.img-thumbnail {
+    border: 0;
+}
