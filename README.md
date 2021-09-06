@@ -50,3 +50,6 @@ bundle exec jekyll serve --host 0.0.0.0
 ```
 find . -name "IMG*" | xargs --replace=file convert -resize 25% file file
 ```
+
+### Authentication
+<personal access token>
