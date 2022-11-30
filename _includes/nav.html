@@ -1,8 +1,8 @@
-{% comment %}
+{%- comment -%}
 	Displays the site's navigation using the jekyll-menus plugin
-{% endcomment %}
+{%- endcomment -%}
 
-{% assign url = page.url | remove:'index.html' %}
+{%- assign url = page.url | remove:'index.html' -%}
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="{{ '/' | relative_url }}"><img src="/img/pas-logo.gif" alt="{{ site.name }}"/></a>
@@ -12,11 +12,11 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      {% for link in site.data.navigation.top %}
+      {%- for link in site.data.navigation.top -%}
       <li class="nav-item">
         <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}</a>
       </li>
-      {% endfor %}
+      {%- endfor -%}
     </ul>
   </div>
 </nav>

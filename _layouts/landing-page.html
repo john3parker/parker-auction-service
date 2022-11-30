@@ -2,24 +2,24 @@
 layout: default
 ---
 
-{% comment %}
+{%- comment -%}
 	This layout is used to generate custom landing page layouts,
 	e.g index.md and about.md
-{% endcomment %}
+{%- endcomment -%}
 
-{% assign stripped_content = content | strip_newlines %}
-{% if content and stripped_content != "" %}
+{%- assign stripped_content = content | strip_newlines -%}
+{%- if content and stripped_content != "" -%}
 <section class="about">
 	<div class="container">
 		{{ content }}
 	</div>
 </section>
-{% endif %}
+{%- endif -%}
 
-{% include services.html %}
+{%- include services.html -%}
 
-{% include news.html %}
+{%- include news.html -%}
 
-{% include partners.html %}
+{%- include partners.html -%}
 
-{% include staff.html %}
+{%- include staff.html -%}

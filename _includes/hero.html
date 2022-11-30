@@ -1,32 +1,32 @@
-{% assign banner_image = '/img/auction-placeholder.jpg' %}
-{% assign banner_style = 'background-position:center;' %}
-{% if page.banner_image and page.banner_image != ''  %}
-  {% assign banner_image = page.banner_image %}
-  {% assign banner_style = page.banner_style %}
-{% endif %}
-{% if banner_image and banner_image != "" %}
+{%- assign banner_image = '/img/auction-placeholder.jpg' -%}
+{%- assign banner_style = 'background-position:center;' -%}
+{%- if page.banner_image and page.banner_image != ''  -%}
+  {%- assign banner_image = page.banner_image -%}
+  {%- assign banner_style = page.banner_style -%}
+{%- endif %}
+{%- if banner_image and banner_image != "" -%}
 	<div id="banner" style="height: 200px;">
 		<div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ banner_image | relative_url }}'); {{ banner_style }}">
 			<div class="hero-text">
 				<header class="call-to-action pt-5">
 					<h1 class="d-none d-md-block my-3">{{ page.heading | default: page.title }}</h1>
 					<h3 class="d-xs-block d-sm-block d-md-none my-3">{{ page.heading | default: page.title }}</h3>
-					{% if page.sub_heading and page.sub_heading != "" %}
+					{%- if page.sub_heading and page.sub_heading != "" -%}
 						<h3 class="d-none d-md-block">{{ page.sub_heading }}</h3>
 						<p class="d-sm-block d-sm-block d-md-none">{{ page.sub_heading }}</p>
-					{% endif %}
-					{% if page.hero_button %}
+					{%- endif -%}
+					{%- if page.hero_button -%}
 					<div>
 						<a href="{{ page.hero_button.href | relative_url }}" class="btn btn-primary" title="{{ page.hero_button.text }}">
 							{{ page.hero_button.text }}&nbsp; > 
 						</a>
-					{% endif %}
-					{% if page.auction_button %}
+					{%- endif -%}
+					{%- if page.auction_button -%}
 						<a href="{{ page.auction_button.href | relative_url }}" class="btn btn-success" title="{{ page.auction_button.text }}">
 							{{ page.auction_button.text }}&nbsp; > 
 						</a>
 					</div>
-					{% endif %}
+					{%- endif -%}
 				</header>
 			</div>
 		</div>
@@ -37,7 +37,7 @@
 			<div class="col"></div>
 		</div>
 	</div>
-	{% if page.textline %}
+	{%- if page.textline -%}
 	<section class="main-message">
 		<div class="text-center">
 			<div class="">
@@ -47,23 +47,23 @@
 			</div>
 		</div>
 	</section>
-	{% endif %}
-{% else %}
+	{%- endif -%}
+{%- else -%}
 	<header class="plain-header">
 		<div class="text-center">
 			<div class="">
 				<div class="pt-5">
-				{% if page.collection == 'people' and page.thumbnail and page.thumbnail != "" %}
+				{%- if page.collection == 'people' and page.thumbnail and page.thumbnail != "" -%}
 					<div class="profile-photo">
 						<img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}">
 					</div>
-				{% endif %}
+				{%- endif -%}
 					<h2>{{ page.title }}</h2>
-					{% if page.sub_heading and page.sub_heading != "" %}
+					{%- if page.sub_heading and page.sub_heading != "" -%}
 					<h3>{{ page.sub_heading }}</h3>
-				{% endif %}
+				{%- endif -%}
 				</div>
 			</div>
 		</div>
 	</header>
-{% endif %}
+{%- endif -%}
