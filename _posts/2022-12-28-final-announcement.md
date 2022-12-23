@@ -14,11 +14,10 @@ published: true
 ### Thursday, December 29th, 2022 • 10:00 A.M.
 
 <!--header-->
-<br>
-### Darrell Parker
+### Announcement
 It is with great sadness that we announce Darrell Parker has passed away after losing his battle with cancer. Darrell enjoyed being an auctioneer in Northwest Arkansas for over 30 years. He always worked hard for his customers and to serve his community.
 
-Visitation for family and friends is scheduled for 5-7pm on Wednesday, December 28 and the memorial service will be held at 10am on Thursday, December 29.  Additional details about those events and Darrell's exceptional life and family are contained in the obituary linked below. 
+Visitation for family and friends is scheduled for 5-7pm on Wednesday, December 28 and the memorial service will be held at 10am on Thursday, December 29. Additional details about those events and Darrell's exceptional life and family are contained in the obituary linked below. 
 
 [Darrell Parker Obituary](http://www.luginbuel.com/deceased-records/person/darrell-parker-1943-2022)
 
